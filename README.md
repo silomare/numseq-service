@@ -10,7 +10,7 @@
 
 3. **start service**  
    $ cd target  
-   $java -jar numseq-service-0.0.1-SNAPSHOT.jar --topic=fizzbuzz-input
+   $ java -jar numseq-service-0.0.1-SNAPSHOT.jar --topic=fizzbuzz-input
 
 4. **monitor kafka topic**  
    - 4.1 start zookeper  
