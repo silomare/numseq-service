@@ -1,4 +1,4 @@
-# numseq-service
+# numseq-service (build/run instructions for windows)
 
 1) clone repo
 
@@ -31,7 +31,7 @@ java -jar numseq-service-0.0.1-SNAPSHOT.jar --topic=fizzbuzz-input
 value.deserializer=org.apache.kafka.common.serialization.IntegerDeserializer
 
 
-5) trigger number generation
+5) trigger number generation (using powershell)
 
 Invoke-RestMethod -URI http://localhost:8080/numproducer/kafkatopic  -Method POST
 
