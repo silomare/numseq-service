@@ -4,7 +4,7 @@
 
 
 2) build:
-mvn clean package site
+mvn clean package site -DskipTests
 
 
 3) start service:
